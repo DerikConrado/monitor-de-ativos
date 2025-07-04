@@ -29,21 +29,22 @@ Caso contrário, apenas crie uma pasta para o projeto e adicione o arquivo app.p
 3. Crie e Ative um Ambiente Virtual (Recomendado)
 Isso isola as dependências do projeto do restante do seu sistema.
 
-Bash
+
 
 # Crie o ambiente virtual
 python -m venv venv
-
 # Ative o ambiente
 # No Windows:
 .\venv\Scripts\activate
 # No macOS/Linux:
 source venv/bin/activate
+
 4. Instale as Dependências
 Crie um arquivo chamado requirements.txt na pasta do projeto com o seguinte conteúdo:
 streamlit
 pandas
 requests
+
 Em seguida, instale todas as bibliotecas de uma vez com o comando:
 
 pip install -r requirements.txt
@@ -52,6 +53,7 @@ pip install -r requirements.txt
 Acesse o site brapi.dev e crie uma conta gratuita para obter seu Token de API.
 Abra o arquivo app.py em um editor de texto.
 Localize a linha TOKEN_API = "SEU_TOKEN_AQUI" e substitua "SEU_TOKEN_AQUI" pelo seu token pessoal.
+
 ▶️ Como Executar
 Com o ambiente virtual ativado e as dependências instaladas, execute o seguinte comando no seu terminal:
 
